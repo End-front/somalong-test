@@ -19,12 +19,14 @@
       href="https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./index.3d5804f1.css" />
+    <link rel="stylesheet" href="./index.10337d32.css" />
   </head>
 
   <body>
     <main>
-      <section class="bg-background-section pb-10 pt-6 relative z-0">
+      <section
+        class="bg-background-section pb-10 pt-6 relative z-0 overflow-hidden"
+      >
         <video
           class="absolute inset-0 -z-10 w-full h-full object-cover"
           preload="auto"
@@ -304,7 +306,7 @@
               >
                 Технология<br />Идеальных Форм
               </h1>
-              <p class="text-lg/normal font-extralight">
+              <p class="text-base/normal lg:text-lg/normal font-extralight">
                 гибридная белковая молекула, стимулирующая выработку ИФР-1
                 (соматомедин-С), а также локальный и системный липолиз в
                 организме.
@@ -321,29 +323,33 @@
             <div
               class="-order-1 lg:order-none max-w-[400px] w-[85%] mx-auto before:pt-[100%] before:block relative"
             >
-              <img
-                src="./pack.c3b2990a.png"
-                alt="Продукт Somalong"
-                class="w-[175%] h-auto max-w-none absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 pointer-events-none"
+              <div
                 data-animate="scaleIn"
                 data-delay="0.4"
                 data-duration="0.8"
-              />
+                class="absolute w-full h-full top-0 left-0"
+              >
+                <img
+                  src="./pack.c3b2990a.png"
+                  alt="Продукт Somalong"
+                  class="w-[175%] h-auto max-w-none absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 pointer-events-none"
+                />
+              </div>
               <a
                 href="#form"
                 class="absolute top-0 right-0 translate-x-1/4 lg:translate-x-3/4 -translate-y-1/4 lg:-translate-y-3/4"
-                data-animate="rotateIn"
-                data-delay="0.6"
               >
-                <img
-                  src="./procent.12e0b3ed.png"
-                  class="w-[86px] h-[86px] absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2"
-                  alt=""
-                />
-                <img
-                  src="./text-procent.eb457bf0.png"
-                  class="w-[118px] h-[118px] animate-[spin_10s_linear_infinite]"
-                />
+                <div data-animate="rotateIn" data-delay="0.6">
+                  <img
+                    src="./procent.12e0b3ed.png"
+                    class="w-[86px] h-[86px] absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2"
+                    alt=""
+                  />
+                  <img
+                    src="./text-procent.eb457bf0.png"
+                    class="w-[118px] h-[118px] animate-[spin_10s_linear_infinite]"
+                  />
+                </div>
               </a>
             </div>
           </div>
@@ -354,13 +360,13 @@
           >
             <div class="order-1 xl:order-none mt-[7%]">
               <h2
-                class="text-lg/none font-dewi font-bold uppercase bg-gradient-blue text-transparent bg-clip-text mt-6 sm:mt-0 mb-8"
+                class="text-[20px]/none font-dewi font-bold bg-gradient-blue text-transparent bg-clip-text mt-6 sm:mt-0 mb-8"
               >
                 Мезококтейль, косметологическое средство
               </h2>
               <div class="flex gap-6 flex-wrap sm:flex-nowrap">
                 <p
-                  class="font-extralight text-lg/normal flex-[1_1_100%] sm:flex-auto sm:max-w-[18.5em]"
+                  class="font-extralight text-base/normal lg:text-lg/normal flex-[1_1_100%] sm:flex-auto sm:max-w-[18.5em]"
                 >
                   Регистрационный номер декларации ЕАЭС N RU
                   Д-RU.PA05.В.26228/22
@@ -398,11 +404,11 @@
               </div>
             </div>
             <div class="flex gap-6 flex-wrap sm:flex-nowrap mt-4 sm:mt-0">
-              <div class="flex items-center gap-2">
+              <div class="flex items-center gap-3 lg:gap-2">
                 <img src="./gear.d7024158.svg" alt="" />
                 <span>Уникальный<br />продукт</span>
               </div>
-              <div class="flex items-center gap-2">
+              <div class="flex items-center gap-3 lg:gap-2">
                 <img src="./dna.8556bdeb.svg" alt="" />
                 <span>Напрямую<br />от&nbsp;производителя</span>
               </div>
@@ -412,12 +418,12 @@
       </section>
       <section class="min-h-screen flex flex-col justify-center py-8">
         <div class="mt-auto"></div>
-        <div class="container mt-auto">
+        <div class="container sm:mt-auto">
           <div
             class="sm:text-center mb-[10%] sm:mb-[6%] max-w-[340px] mx-auto sm:max-w-none"
           >
             <h2
-              class="text-[32px]/[42px] lg:text-[42px]/[52px] font-dewi font-bold bg-gradient-blue text-transparent bg-clip-text"
+              class="text-[26px]/[42px] lg:text-[42px]/none font-dewi font-bold bg-gradient-blue text-transparent bg-clip-text"
               data-animate="fadeInDown"
               data-delay="0"
               data-duration="1"
@@ -430,7 +436,7 @@
             class="flex flex-col max-w-[340px] mx-auto lg:max-w-none lg:flex-row lg:justify-center gap-8 lg:gap-12 mb-[10%] sm:mb-[6%]"
           >
             <div
-              class="flex items-start text-left gap-4"
+              class="flex items-start text-left gap-5 lg:gap-4"
               data-animate="fadeInLeft"
               data-delay="0"
               data-duration="1"
@@ -458,7 +464,7 @@
             </div>
 
             <div
-              class="flex items-start text-left gap-4"
+              class="flex items-start text-left gap-5 lg:gap-4"
               data-animate="fadeInLeft"
               data-delay="0.2"
               data-duration="1"
@@ -486,7 +492,7 @@
             </div>
 
             <div
-              class="flex items-start text-left gap-4"
+              class="flex items-start text-left gap-5 lg:gap-4"
               data-animate="fadeInLeft"
               data-delay="0.4"
               data-duration="1"
@@ -514,7 +520,7 @@
             </div>
           </div>
         </div>
-        <div class="container my-auto">
+        <div class="container mb-auto mt-[50px] sm:mt-auto">
           <div
             class="text-center"
             data-animate="fadeInUp"
@@ -546,7 +552,7 @@
           </div>
         </div>
       </section>
-      <section class="min-h-screen flex flex-col justify-center py-8">
+      <section class="min-h-screen flex flex-col justify-center pt-8 pb-[50px]">
         <div class="container">
           <div class="relative z-0">
             <div
@@ -643,7 +649,7 @@
 
       <section
         style="background-image: url(background.62c45eab.png)"
-        class="bg-cover bg-center bg-no-repeat min-h-screen flex flex-col justify-center py-8 overflow-hidden"
+        class="bg-cover bg-center bg-no-repeat min-h-screen flex flex-col justify-center py-12 overflow-hidden"
       >
         <div class="container flex items-center">
           <div class="flex flex-col gap-8 md:basis-1/2 relative">
@@ -717,7 +723,7 @@
         </div>
       </section>
 
-      <section class="min-h-screen flex flex-col justify-center py-8">
+      <section class="min-h-screen flex flex-col justify-center py-12">
         <div class="container flex gap-10 justify-center lg:justify-between">
           <div
             class="max-w-[285px] relative hidden flex-col items-center lg:flex"
@@ -904,7 +910,7 @@
       </style>
 
       <section
-        class="flex flex-col justify-center py-8 bg-gradient-blue text-white overflow-hidden"
+        class="flex flex-col justify-center py-12 bg-gradient-blue text-white overflow-hidden"
       >
         <div class="container flex flex-col lg:flex-row lg:items-center">
           <div
@@ -960,7 +966,7 @@
             </div>
           </div>
           <div
-            class="-my-8 mx-auto relative before:pt-[529%] before:block max-w-[170px] w-[16%] hidden lg:block"
+            class="-my-12 mx-auto relative before:pt-[529%] before:block max-w-[170px] w-[16%] hidden lg:block"
           >
             <img
               src="./dna.926fab7d.svg"
